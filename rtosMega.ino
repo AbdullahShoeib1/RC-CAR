@@ -8,7 +8,7 @@
 #define SD_ChipSelectPin 53 // connect pin 4 of arduino to cs pin of sd card
 #include <TMRpcm.h>         //Arduino library for asynchronous playback of PCM/WAV files
 #include <SPI.h>            //  need to include the SPI library
-
+//
 LCDWIKI_KBV my_lcd(ILI9341, A3, A2, A1, A0, A4); // model,cs,cd,wr,rd,reset
 
 #define BLACK 0x0000       /*   0,   0,   0 */
